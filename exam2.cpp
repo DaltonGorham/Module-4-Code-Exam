@@ -38,10 +38,10 @@ int main(){
 
   Shape* circle = new Polygon("Cirlce", 0, dot2);
 
-  Shape* trainagle = new Polygon("Triangle", 3, circle);
+  Shape* triangle = new Polygon("Triangle", 3, circle);
 
-  Shape* sqaure2 = new Polygon("Square", 4, circle);
-  
+  Shape* sqaure2 = new Polygon("Square", 4, triangle);
+
   Shape* pentagon = new Polygon("Pentagon", 5, sqaure2);
 
 
